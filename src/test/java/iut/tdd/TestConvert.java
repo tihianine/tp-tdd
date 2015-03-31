@@ -9,7 +9,7 @@ public class TestConvert {
 	public void test_num2text_deux () {
 
 		// Then
-		Assert.assertEquals("deux", Convert.num2text("2"));
+		Assert.assertEquals("onze", Convert.num2text("11"));
 	}
 	@Test
 	public void test_text2num_zero () {
